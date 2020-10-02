@@ -109,7 +109,7 @@ int read_interval(double *left_border, double *right_border) {
 
 int main() {
     double left_border, right_border;
-    int array[ARRAY_SIZE] = {5, 10, 20, 100, 500, 1000};
+    int array[ARRAY_SIZE] = {6, 10, 20, 100, 500, 1000};
     if (read_interval(&left_border, &right_border)) {
         return 1;
     }
